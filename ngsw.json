@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1689167103036,
-  "index": "/index.html",
+  "timestamp": 1689172437504,
+  "index": "/WhoStarts/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,13 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
-        "/favicon.ico",
-        "/index.html",
-        "/main.76c339d14fac7c4e.js",
-        "/manifest.webmanifest",
-        "/polyfills.7eafc02780b524b1.js",
-        "/runtime.be61af9df361ab8b.js",
-        "/styles.ef46db3751d8e999.css"
+        "/WhoStarts/favicon.ico",
+        "/WhoStarts/index.html",
+        "/WhoStarts/main.76c339d14fac7c4e.js",
+        "/WhoStarts/manifest.webmanifest",
+        "/WhoStarts/polyfills.7eafc02780b524b1.js",
+        "/WhoStarts/runtime.be61af9df361ab8b.js",
+        "/WhoStarts/styles.ef46db3751d8e999.css"
       ],
       "patterns": []
     },
@@ -29,35 +29,35 @@
         "ignoreVary": true
       },
       "urls": [
-        "/assets/icons/icon-128x128.png",
-        "/assets/icons/icon-144x144.png",
-        "/assets/icons/icon-152x152.png",
-        "/assets/icons/icon-192x192.png",
-        "/assets/icons/icon-384x384.png",
-        "/assets/icons/icon-512x512.png",
-        "/assets/icons/icon-72x72.png",
-        "/assets/icons/icon-96x96.png"
+        "/WhoStarts/assets/icons/icon-128x128.png",
+        "/WhoStarts/assets/icons/icon-144x144.png",
+        "/WhoStarts/assets/icons/icon-152x152.png",
+        "/WhoStarts/assets/icons/icon-192x192.png",
+        "/WhoStarts/assets/icons/icon-384x384.png",
+        "/WhoStarts/assets/icons/icon-512x512.png",
+        "/WhoStarts/assets/icons/icon-72x72.png",
+        "/WhoStarts/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
-    "/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
-    "/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
-    "/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
-    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
-    "/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
-    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "deaef31fd317a191a137d5a2cd9e1a0e9698efbb",
-    "/main.76c339d14fac7c4e.js": "a55ca13d1562ad359af022933eda52e15af6e74e",
-    "/manifest.webmanifest": "74bf6b27ce55bf748631cdd931c09af21328c4dd",
-    "/polyfills.7eafc02780b524b1.js": "a10b76cf37fb4a8117f27ac8462e9f8076ae9c94",
-    "/runtime.be61af9df361ab8b.js": "3fd34b6576b8970a06459e3244f9ec10193bada5",
-    "/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "/WhoStarts/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
+    "/WhoStarts/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
+    "/WhoStarts/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
+    "/WhoStarts/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
+    "/WhoStarts/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/WhoStarts/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/WhoStarts/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
+    "/WhoStarts/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "/WhoStarts/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/WhoStarts/index.html": "f207019ea46853c95fe599714c0953267d5edebf",
+    "/WhoStarts/main.76c339d14fac7c4e.js": "a55ca13d1562ad359af022933eda52e15af6e74e",
+    "/WhoStarts/manifest.webmanifest": "74bf6b27ce55bf748631cdd931c09af21328c4dd",
+    "/WhoStarts/polyfills.7eafc02780b524b1.js": "a10b76cf37fb4a8117f27ac8462e9f8076ae9c94",
+    "/WhoStarts/runtime.be61af9df361ab8b.js": "3fd34b6576b8970a06459e3244f9ec10193bada5",
+    "/WhoStarts/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
   },
   "navigationUrls": [
     {
