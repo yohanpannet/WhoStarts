@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1689179183600,
+  "timestamp": 1689241188432,
   "index": "/WhoStarts/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/WhoStarts/favicon.ico",
         "/WhoStarts/index.html",
-        "/WhoStarts/main.cdab347ebbf4345b.js",
+        "/WhoStarts/main.bd3ffd31ef9d25b4.js",
         "/WhoStarts/manifest.webmanifest",
         "/WhoStarts/polyfills.7eafc02780b524b1.js",
         "/WhoStarts/runtime.be61af9df361ab8b.js",
@@ -52,8 +52,8 @@
     "/WhoStarts/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
     "/WhoStarts/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
     "/WhoStarts/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/WhoStarts/index.html": "d3077ddd77bbb6c47a46514de44ac4f8d6026097",
-    "/WhoStarts/main.cdab347ebbf4345b.js": "a614952cfc13003c46f55f0eb67c44df4ac744d9",
+    "/WhoStarts/index.html": "34ac785e6885695847fde141e39aedc028af53bc",
+    "/WhoStarts/main.bd3ffd31ef9d25b4.js": "791239070fa166dd0535ab3af58496a6ac29828c",
     "/WhoStarts/manifest.webmanifest": "74bf6b27ce55bf748631cdd931c09af21328c4dd",
     "/WhoStarts/polyfills.7eafc02780b524b1.js": "a10b76cf37fb4a8117f27ac8462e9f8076ae9c94",
     "/WhoStarts/runtime.be61af9df361ab8b.js": "3fd34b6576b8970a06459e3244f9ec10193bada5",
