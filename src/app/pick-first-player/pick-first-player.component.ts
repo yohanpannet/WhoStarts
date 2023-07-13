@@ -1,4 +1,5 @@
-import { Component, HostListener, ViewChild, ElementRef } from '@angular/core';
+import { Component, HostListener, ViewChild, ElementRef, Inject } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
 
 @Component({
   selector: 'app-pick-first-player',
@@ -8,11 +9,29 @@ import { Component, HostListener, ViewChild, ElementRef } from '@angular/core';
 export class PickFirstPlayerComponent {
   @ViewChild('canvas', { static: true })
   canvas!: ElementRef<HTMLCanvasElement>;
+
+  private ctx: CanvasRenderingContext2D | null = null;
+  width = 0;
+  height = 0;
+
+  constructor (private elementRef: ElementRef<HTMLElement>){
+    
+  }
+
+  ngOnInit(): void {
+    this.width = this.elementRef.nativeElement.offsetWidth;
+    this.height = this.elementRef.nativeElement.offsetHeight;
+    //console.log(this.elementRef);
+    this.ctx = this.canvas.nativeElement.getContext('2d');
+  }
+
   @HostListener('touchstart', ['$event'])
+  @HostListener('touchmove', ['$event'])
   handleTouch(event:TouchEvent){
     console.log(`%c ${event.type}`, 'color: pink');
     console.log(event)
     if (!this.ctx) return;
+    this.ctx.clearRect(0, 0, this.width, this.height);
     for (var i = 0; i < event.touches.length; i++) {
       var touch = event.touches[i];
       this.ctx.beginPath();
@@ -21,21 +40,13 @@ export class PickFirstPlayerComponent {
       this.ctx.stroke();
     }
   }
-  @HostListener('touchmove', ['$event'])
-  handleTouchMove(event:TouchEvent){
-    console.log(`%c ${event.type}`, 'color: lime');
-    console.log(event)
-  }
+
   @HostListener('touchend', ['$event'])
   handleTouchEnd(event:TouchEvent){
     console.log(`%c ${event.type}`, 'color: orange');
     console.log(event)
-  }
-
-  private ctx: CanvasRenderingContext2D | null = null;
-
-  ngOnInit(): void {
-    this.ctx = this.canvas.nativeElement.getContext('2d');
+    if (!this.ctx) return;
+    this.ctx.clearRect(0, 0, this.width, this.height);
   }
   
 }
