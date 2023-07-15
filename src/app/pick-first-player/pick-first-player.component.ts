@@ -41,6 +41,7 @@ export class PickFirstPlayerComponent {
   private generateTouchesTemplate() {
     this.paletteName = Array.from(colorPalettes.keys())[Math.floor(Math.random()*colorPalettes.size)];
     let palette = colorPalettes.get(this.paletteName);
+    console.log(this.paletteName);
     for (let i = 0; i < palette.length; i++) {
       this.toucheTemplates.push({
         identifier: i,
