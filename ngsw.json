@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1689457073537,
+  "timestamp": 1689521808028,
   "index": "/WhoStarts/index.html",
   "assetGroups": [
     {
@@ -11,7 +11,7 @@
         "ignoreVary": true
       },
       "urls": [
-        "/WhoStarts/favicon.ico",
+        "/WhoStarts/favicon.svg",
         "/WhoStarts/index.html",
         "/WhoStarts/main.d9ccbe04757b406a.js",
         "/WhoStarts/manifest.webmanifest",
@@ -36,7 +36,8 @@
         "/WhoStarts/assets/icons/icon-384x384.png",
         "/WhoStarts/assets/icons/icon-512x512.png",
         "/WhoStarts/assets/icons/icon-72x72.png",
-        "/WhoStarts/assets/icons/icon-96x96.png"
+        "/WhoStarts/assets/icons/icon-96x96.png",
+        "/WhoStarts/assets/icons/meeple.svg"
       ],
       "patterns": []
     }
@@ -51,10 +52,11 @@
     "/WhoStarts/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "/WhoStarts/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
     "/WhoStarts/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
-    "/WhoStarts/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/WhoStarts/index.html": "cc6123c8958eaf7b5a7a2a1ced7312bc89e0074a",
+    "/WhoStarts/assets/icons/meeple.svg": "962bfe4a26720b119fd6ee96fc91b2fb1fe28490",
+    "/WhoStarts/favicon.svg": "962bfe4a26720b119fd6ee96fc91b2fb1fe28490",
+    "/WhoStarts/index.html": "016673c489bc09b8b8e0ea7ada470fc3a47109c8",
     "/WhoStarts/main.d9ccbe04757b406a.js": "354b2f1f8ee32537aa79bf7f908896ab89f768a4",
-    "/WhoStarts/manifest.webmanifest": "74bf6b27ce55bf748631cdd931c09af21328c4dd",
+    "/WhoStarts/manifest.webmanifest": "a1797b8409088b350ceb3bb9136a82aec3b36d0a",
     "/WhoStarts/polyfills.7eafc02780b524b1.js": "a10b76cf37fb4a8117f27ac8462e9f8076ae9c94",
     "/WhoStarts/runtime.be61af9df361ab8b.js": "3fd34b6576b8970a06459e3244f9ec10193bada5",
     "/WhoStarts/styles.34baad5492d7fb96.css": "ea9aebaf6061c3a19e01d3855d46707606c1a9d7"
