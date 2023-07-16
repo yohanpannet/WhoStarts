@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1689521808028,
+  "timestamp": 1689523808530,
   "index": "/WhoStarts/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/WhoStarts/favicon.svg",
         "/WhoStarts/index.html",
-        "/WhoStarts/main.d9ccbe04757b406a.js",
+        "/WhoStarts/main.2b24a77aaa8cb4bc.js",
         "/WhoStarts/manifest.webmanifest",
         "/WhoStarts/polyfills.7eafc02780b524b1.js",
         "/WhoStarts/runtime.be61af9df361ab8b.js",
@@ -54,8 +54,8 @@
     "/WhoStarts/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
     "/WhoStarts/assets/icons/meeple.svg": "962bfe4a26720b119fd6ee96fc91b2fb1fe28490",
     "/WhoStarts/favicon.svg": "962bfe4a26720b119fd6ee96fc91b2fb1fe28490",
-    "/WhoStarts/index.html": "016673c489bc09b8b8e0ea7ada470fc3a47109c8",
-    "/WhoStarts/main.d9ccbe04757b406a.js": "354b2f1f8ee32537aa79bf7f908896ab89f768a4",
+    "/WhoStarts/index.html": "fdd74c1f42f59f25092984ee2a3125a5e239cd09",
+    "/WhoStarts/main.2b24a77aaa8cb4bc.js": "190e79615a8eb993c594b00468f27056a708502f",
     "/WhoStarts/manifest.webmanifest": "a1797b8409088b350ceb3bb9136a82aec3b36d0a",
     "/WhoStarts/polyfills.7eafc02780b524b1.js": "a10b76cf37fb4a8117f27ac8462e9f8076ae9c94",
     "/WhoStarts/runtime.be61af9df361ab8b.js": "3fd34b6576b8970a06459e3244f9ec10193bada5",
